@@ -1,0 +1,15 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\main.o"
+".\objects\measurement_controller.o"
+".\objects\adc_drivers.o"
+".\objects\conversion_lib.o"
+".\objects\bb_bus_drivers.o"
+".\objects\multimeter_lcd_drivers.o"
+".\objects\pb_lcd_drivers.o"
+".\objects\dmm_pwr_controller.o"
+".\objects\frequency_drivers.o"
+".\objects\startup_stm32f407xx.o"
+".\objects\system_stm32f4xx.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\multimeter.map" -o .\Objects\multimeter.axf

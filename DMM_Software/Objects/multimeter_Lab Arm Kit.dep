@@ -1,0 +1,109 @@
+Dependencies for Project 'multimeter', Target 'Lab Arm Kit': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\src\main.c)(0x6272CFB0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Lab_Arm_Kit-IC:/Users/Connall/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Connall/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F407xx -D_RTE_-o ./objects/main.o -MD)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x61113140)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D45962)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60357850)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61113140)
+I (src\MEASUREMENT_Controller\MEASUREMENT_Controller.h)(0x6272CD39)
+I (src\BB_BUS_Drivers\BB_BUS_Drivers.h)(0x6272A221)
+I (src\MULTIMETER_LCD_Drivers\MULTIMETER_LCD_Drivers.h)(0x6272CE25)
+I (src\DMM_PWR_Controller\DMM_PWR_Controller.h)(0x6272A221)
+F (.\src\MEASUREMENT_Controller\MEASUREMENT_Controller.c)(0x6272CD4A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Lab_Arm_Kit-IC:/Users/Connall/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Connall/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F407xx -D_RTE_-o ./objects/measurement_controller.o -MD)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x61113140)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D45962)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60357850)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61113140)
+I (src\MEASUREMENT_Controller\MEASUREMENT_Controller.h)(0x6272CD39)
+I (src\MEASUREMENT_Controller\ADC_Drivers\ADC_Drivers.h)(0x6272A221)
+I (src\MEASUREMENT_Controller\CONVERSION_Lib\CONVERSION_Lib.h)(0x6272A221)
+I (src\MEASUREMENT_Controller\FREQUENCY_Drivers\FREQUENCY_Drivers.h)(0x6272A221)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6035784A)
+F (.\src\MEASUREMENT_Controller\ADC_Drivers\ADC_Drivers.c)(0x6272A221)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Lab_Arm_Kit-IC:/Users/Connall/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Connall/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F407xx -D_RTE_-o ./objects/adc_drivers.o -MD)
+I (src\MEASUREMENT_Controller\ADC_Drivers\ADC_Drivers.h)(0x6272A221)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x61113140)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D45962)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60357850)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61113140)
+F (.\src\MEASUREMENT_Controller\CONVERSION_Lib\CONVERSION_Lib.c)(0x6272A221)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Lab_Arm_Kit-IC:/Users/Connall/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Connall/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F407xx -D_RTE_-o ./objects/conversion_lib.o -MD)
+I (src\MEASUREMENT_Controller\CONVERSION_Lib\CONVERSION_Lib.h)(0x6272A221)
+I (c:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6035784A)
+F (.\src\BB_BUS_Drivers\BB_BUS_Drivers.c)(0x6272CFBE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Lab_Arm_Kit-IC:/Users/Connall/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Connall/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F407xx -D_RTE_-o ./objects/bb_bus_drivers.o -MD)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x61113140)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D45962)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60357850)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61113140)
+I (src\BB_BUS_Drivers\BB_BUS_Drivers.h)(0x6272A221)
+F (.\src\MULTIMETER_LCD_Drivers\MULTIMETER_LCD_Drivers.c)(0x6272CF24)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Lab_Arm_Kit-IC:/Users/Connall/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Connall/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F407xx -D_RTE_-o ./objects/multimeter_lcd_drivers.o -MD)
+I (src\MULTIMETER_LCD_Drivers\MULTIMETER_LCD_Drivers.h)(0x6272CE25)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x61113140)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D45962)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60357850)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61113140)
+I (src\MULTIMETER_LCD_Drivers\..\PB_LCD_Drivers\PB_LCD_Drivers.h)(0x6272A221)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6035784A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60357850)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60357854)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60357850)
+F (.\src\PB_LCD_Drivers\PB_LCD_Drivers.c)(0x6272A221)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Lab_Arm_Kit-IC:/Users/Connall/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Connall/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F407xx -D_RTE_-o ./objects/pb_lcd_drivers.o -MD)
+I (src\PB_LCD_Drivers\PB_LCD_Drivers.h)(0x6272A221)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x61113140)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D45962)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60357850)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61113140)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x61113140)
+F (.\src\DMM_PWR_Controller\DMM_PWR_Controller.c)(0x6272D0B4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Lab_Arm_Kit-IC:/Users/Connall/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Connall/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F407xx -D_RTE_-o ./objects/dmm_pwr_controller.o -MD)
+I (src\DMM_PWR_Controller\DMM_PWR_Controller.h)(0x6272A221)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x61113140)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D45962)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60357850)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61113140)
+F (.\src\MEASUREMENT_Controller\FREQUENCY_Drivers\FREQUENCY_Drivers.c)(0x6272A221)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Lab_Arm_Kit-IC:/Users/Connall/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Connall/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F407xx -D_RTE_-o ./objects/frequency_drivers.o -MD)
+I (src\MEASUREMENT_Controller\FREQUENCY_Drivers\FREQUENCY_Drivers.h)(0x6272A221)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x61113140)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D45962)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60357850)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61113140)
+F (RTE\Device\STM32F407VGTx\startup_stm32f407xx.s)(0x6272A221)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Lab_Arm_Kit-IC:/Users/Connall/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Connall/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F407xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f407xx.o)
+F (RTE\Device\STM32F407VGTx\system_stm32f4xx.c)(0x6272A221)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Lab_Arm_Kit-IC:/Users/Connall/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/Connall/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F407xx -D_RTE_-o ./objects/system_stm32f4xx.o -MD)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x61113140)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x61113140)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D45962)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60357850)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D45962)
+I (C:\Users\Connall\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61113140)
